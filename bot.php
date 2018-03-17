@@ -1,5 +1,5 @@
 <?php
-$access_token = '1/rOu668TPSyoboXfr94yvhF1ZsE8xPVuY0T92XSpS+I3DKP6EjhPVILvvu0tNKaOyMRCPXmCscK0LYMYNYv3IQqnIqaX6KhLEWHQLU7Vy7Cf0rt3TtPkLude/Q0uKlVTsnwTL9/T+GksKyvTb6ymAdB04t89/1O/w1cDnyilFU=';
+$access_token = '';
 // Get POST body content
 $content = file_get_contents('php://input');// Parse JSON
 $events = json_decode($content, true);// Validate parsed JSON data
